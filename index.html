@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike zone</title>
+    <!-- tailwind setup -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .font-poppins{
+            font-family: 'Poppins', sans-serif;
+ 
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-[#264653] py-4 md:py-10 lg:py-16 px-4 md:px-20 lg:px-36">
+        <!-- navbar start -->
+        <nav><div class="navbar text-white">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black">
+                  <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>News</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl"></a>
+            </div>
+            <!-- <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Item 1</a></li>
+                <li>
+                  <details>
+                    <summary>Parent</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div> -->
+            <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 flex">
+                    <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>News</a></li>
+                  <li><a>Contact</a></li>
+                  </ul>
+              <a class="lg:ml-28 btn bg-[#E76F51] text-white border-none">Login</a>
+            </div>
+          </div></nav>
+
+          <!-- banner section -->
+           <div class="flex flex-col md:flex-row lg:flex-row justify-between items-center font-poppins text-white">
+            <div class="space-y-4">
+                <p class="text-[14px] font-light">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-5xl font-semibold">Honda CBR 300R</h1>
+                <p class="text-[14px] font-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button class="btn bg-[#E76F51] text-white border-none">Purchase</button>
+            </div>
+            <div>
+                <img src="images/slider/bike3.png" alt="">
+            </div>
+           </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto mt-16 font-poppins">
+        <!-- Fetured Bikes In This Year section -->
+         <section>
+            <h1 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-center">Fetured Bikes In This Year</h1>
+            <p class="text-[#E76F51] font-medium text-center mt-3">Best bike collection</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16 md:my-24 lg:my-36">
+                <img src="images/slider/bike1.png" alt="">
+                <img src="images/slider/bike2.png" alt="">
+                <img src="images/slider/bike4.png" alt="">
+            </div>
+         </section>
+
+         <!-- latest News section -->
+          <section>
+            <h1 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-center">latest News</h1>
+            <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 md:mt-20 lg:mt-24">
+                <!-- 1st card for latest news -->
+                <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="images/others/latest1.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-[#E76F51] text-white hover:bg-white hover:border-[#E76F51] hover:text-[#E76F51]">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 2nd card -->
+                  <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="images/others/latest2.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Motorcycles & Scooters</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-[#E76F51] text-white hover:bg-white hover:border-[#E76F51] hover:text-[#E76F51]">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 3rd card -->
+                  <div class="card bg-base-100  shadow-xl">
+                    <figure>
+                      <img
+                        src="images/others/latest3.png"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">2021 Honda CBR500R</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn bg-[#E76F51] text-white hover:bg-white hover:border-[#E76F51] hover:text-[#E76F51]">Read More</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </section>
+
+          <!-- Happy Clients says section -->
+           <section class="mt-24 md:mt-36 lg:mt-44">
+            <h1 class="text-2xl md:text-3xl lg:text-5xl font-semibold text-center">Happy <span class="text-[#E76F51]">Clients says</span></h1>
+
+            <!-- card start -->
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- 1st card -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img
+                        src="images/others/user-1.png"
+                        alt="Shoes"
+                        class="rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      
+                      <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+                        <h2 class="card-title text-[#23A6F0]">Regina Miles</h2>
+                        <h2 class="card-title">Banker</h2>
+                    </div>
+                  </div>
+             </div>
+           </section>
+    </main>
+</body>
+</html>
